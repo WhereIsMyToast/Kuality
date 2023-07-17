@@ -1,0 +1,132 @@
+.Nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #555555;
+    box-shadow: 5px;
+    box-shadow: 0px 7px 13px 0px rgba(0,0,0,0.79);
+    opacity: 95%;
+    z-index: 10;
+    animation: header_animation 1s ease-in-out;
+}
+
+@keyframes header_animation {
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+
+#inicio{
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    margin: auto;
+}
+#creadores{
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    margin: auto;
+}
+
+#unete{
+    position: absolute;
+    top: 25%;
+    left: 65%;
+    margin: auto;
+}
+
+
+.style_button{
+    align-items: center;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+    text-decoration: none;
+    outline: 0;
+    border: 0;
+    padding: 1rem;
+}
+.style_button_hover:before{
+    background-color: #fff;
+    content: "";
+
+    height: 1px;
+    margin-right: 10px;
+    transition: all .42s cubic-bezier(.25,.8,.25,1);
+    width: 0;
+}
+.style_button_hover:hover:before{
+    background-color: #fff;
+    width: 3rem;
+}
+
+
+
+
+#logotipo{
+    margin-left: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 100px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+
+
+.titulo{
+    animation: opacity_animation 2.5s ease-in-out;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.marked{
+    color: rgb(131, 131, 131);
+}
+
+.fa-instagram{
+    color: white;
+    position: absolute;
+    right: 5%;
+    top: 35%;
+    margin: auto;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.fa-tiktok{
+    color: white;
+    position: absolute;
+    right: 10%;
+    top: 35%;
+    margin: auto;
+    text-decoration: none;
+    font-size: 30px;
+}
+.fa-twitter{
+    color: white;
+    position: absolute;
+    right: 15%;
+    top: 35%;
+    margin: auto;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.socials{
+    transition: all .5s ;
+}
+.socials:hover{
+    transform: scale(1.5);
+}
