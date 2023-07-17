@@ -79,6 +79,7 @@
     height: 100px;
     margin-left: 50%;
     transform: translate(-50%);
+    cursor: pointer;
 }
 
 
@@ -125,8 +126,10 @@
 }
 
 .socials{
-    transition: all .5s ;
+    transition: all .5s;
+    cursor: pointer;
 }
+
 .socials:hover{
     transform: scale(1.5);
 }
